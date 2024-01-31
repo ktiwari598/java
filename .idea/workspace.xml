@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Assistant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/constructor/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/constructor/MainClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +46,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Abstraction.Client" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
       <module name="JavaPractice" />
@@ -67,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainClass" />
       </list>
