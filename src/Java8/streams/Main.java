@@ -45,7 +45,7 @@ public class Main {
                 Arrays.asList(4, 5),
                 Arrays.asList(6, 7, 8)
         );
-
+        //flatmap is used to convert nested list to list
         List<Integer> newList = nestedList.stream()
                 .flatMap(Collection::stream)
                 .toList();

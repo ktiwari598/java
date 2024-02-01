@@ -6,8 +6,6 @@ import java.util.stream.Collectors;
 
 public class Optionals {
 
-
-
     public static void main(String[] args) {
         Integer val = Optional.ofNullable(10).stream()
                 .reduce(0, Integer::sum);
