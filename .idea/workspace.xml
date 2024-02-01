@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Assistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="OOPS">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/Lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparatorComparable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/constructor/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/constructor/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,20 +46,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.Client">
+}]]></component>
+  <component name="RunManager" selected="Application.Java8.streams.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Abstraction.Client" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPS.Abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8.lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.lambda.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8.streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.streams.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.lambda.Lambda" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,24 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.constructor.MainClass" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java8.streams.Main" />
+        <item itemvalue="Application.Java8.lambda.Main" />
+        <item itemvalue="Application.Lambda" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -103,9 +142,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706586141287</updated>
     </task>
+    <task id="LOCAL-00001" summary="OOPS">
+      <created>1706725265081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706725265081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="OOPS" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPS" />
   </component>
 </project>
