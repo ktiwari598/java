@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="OOPS">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/inheritance/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparatorComparable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Java8 Lambdas, Streams">
+      <change afterPath="$PROJECT_DIR$/src/Java8/Optionals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8/streams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/streams/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Java8.streams.Main">
+  <component name="RunManager" selected="Application.Optionals">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Abstraction.Client" />
       <module name="JavaPractice" />
@@ -110,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
+    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.Optionals" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.singleton.*" />
+          <option name="PATTERN" value="Java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Optionals" />
         <item itemvalue="Application.Java8.streams.Main" />
         <item itemvalue="Application.Java8.lambda.Main" />
         <item itemvalue="Application.Lambda" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,12 +140,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706725265081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Java8 Lambdas, Streams">
+      <created>1706778241185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706778241185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="OOPS" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOPS" />
+    <MESSAGE value="Java8 Lambdas, Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java8 Lambdas, Streams" />
   </component>
 </project>

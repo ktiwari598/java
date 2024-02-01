@@ -1,6 +1,7 @@
 package Java8.streams;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 public class Main {
@@ -38,6 +39,20 @@ public class Main {
         System.out.println(numbers.stream().findAny());
 
         System.out.println(numbers.stream().findFirst());
+
+        List<List<Integer>> nestedList = Arrays.asList(
+                Arrays.asList(1, 2, 3),
+                Arrays.asList(4, 5),
+                Arrays.asList(6, 7, 8)
+        );
+
+        List<Integer> newList = nestedList.stream()
+                .flatMap(Collection::stream)
+                .toList();
+        System.out.println("FlatMap is coming ---------------------------------------------");
+        for(Integer x: newList) {
+            System.out.printf("%d ",x);
+        }
 
     }
 }
