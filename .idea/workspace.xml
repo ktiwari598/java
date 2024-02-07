@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="MultiThreading1, SQl vs NoSQL">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackVsHeapMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8/Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/Optionals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/lambda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQlvsNoSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQlvsNoSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706877332595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MultiThreading1, SQl vs NoSQL">
+      <created>1707275751810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707275751810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
