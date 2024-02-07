@@ -21,14 +21,18 @@ public class Vehicle {
         System.out.println("Int and string function");
     }
 
+    public void loud(String x1, int x2) {
+        System.out.println("String and int function");
+    }
+
     /**
-     * Compile Time polymorphim (Method Overloading) works for methods with
+     * Compile Time polymorphism (Method Overloading) works for methods with
      * different no. of input parameters
      * different type of input parameters
-     * different orderding of input paramters provided the input type is not exactly same
+     * different ordering of input parameters provided the input type is not exactly same
      *
-     * Compile Time polymorphim (Method Overloading) do not works for methods with
-     * different return tyep
+     * Compile Time polymorphism (Method Overloading) do not works for methods with
+     * different return type
      * just changing the variable name with same input type
      */
 

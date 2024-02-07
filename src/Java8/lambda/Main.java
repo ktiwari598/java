@@ -3,7 +3,7 @@ package Java8.lambda;
 import static Java8.lambda.Lambda.*;
 
 /**
- * Java * brought new features
+ * Java 8 brought new features
  * 1. Lambda Functions
  * 2. Stream API
  * 3. Functional Interface

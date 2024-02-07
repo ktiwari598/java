@@ -14,9 +14,10 @@ public class Main {
             threads[i].start();
         }
 
-        // Wait for all threads to finish
+        // Main thread wait for all threads to finish and then finishes itself
         for (Thread thread : threads) {
             try {
+                //Wait for this thread to complete or die
                 thread.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();

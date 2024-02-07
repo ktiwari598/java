@@ -2,8 +2,11 @@ package Java8;
 
 import java.util.Optional;
 import java.util.OptionalInt;
-import java.util.stream.Collectors;
 
+
+/**
+ * Optional class is a more convenient way to handle null checks, NullPointerException
+ */
 public class Optionals {
 
     public static void main(String[] args) {

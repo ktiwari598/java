@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Enums, equals, toString, hashCode">
-      <change afterPath="$PROJECT_DIR$/src/SQlvsNoSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Thread2.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="MultiThreading1, SQl vs NoSQL">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8/Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/Optionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8/lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8/lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/compiletime/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SQlvsNoSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQlvsNoSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,26 +57,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.multithreading.Main">
-    <configuration name="Java8.lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.lambda.Main" />
+  <component name="RunManager" selected="Application.OOPS.singleton.Main">
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.Deadlock" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Java8.streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.streams.Main" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java8.streams.*" />
+          <option name="PATTERN" value="multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +77,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPS.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.singleton.Main" />
+        <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.multithreading.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Optionals" />
-        <item itemvalue="Application.Java8.streams.Main" />
-        <item itemvalue="Application.Java8.lambda.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706796990230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MultiThreading1, SQl vs NoSQL">
+      <created>1706877332595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706877332595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +185,7 @@
     <MESSAGE value="OOPS" />
     <MESSAGE value="Java8 Lambdas, Streams" />
     <MESSAGE value="Enums, equals, toString, hashCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enums, equals, toString, hashCode" />
+    <MESSAGE value="MultiThreading1, SQl vs NoSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading1, SQl vs NoSQL" />
   </component>
 </project>

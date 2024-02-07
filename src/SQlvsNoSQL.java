@@ -13,4 +13,12 @@ public class SQlvsNoSQL {
      * If your data is not well structured and may change from time to time
      * Use Cases - Real time Analytics, Social media Analytics, and Recommendation engines.
      */
+
+
+    /**
+     * Indexing on db should be done on column
+     * which is frequently used for filtering out records from table
+     * which is frequently used for joining with other tables
+     * which is frequently used for sorting or grouping by queries
+     */
 }
