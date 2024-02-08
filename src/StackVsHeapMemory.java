@@ -7,6 +7,12 @@ public class StackVsHeapMemory {
      *
      * String literals in java are store in string constant pool which are in heap memory, but strings
      * created with new keyword are not stored in string constant pool
+     *
+     * Static variables/methods - Store in the method area of heap memory
+     * Local Variables - Stored in the stack memory, created and destroyed with each method invocation
+     * Instance Variables - Stored in the heap memory, each associated with a reference variable in the stack memory
+     *
+     *
      * Garbage Collector deletes the unreferenced objects from the heap
      *
      * When stack memory is full, then throws StackOverflowError
@@ -23,7 +29,7 @@ public class StackVsHeapMemory {
      * When age factor reaches to a certain threshold, then we move the object from Young to Old gen, where
      * major GC happens but in a relatively much larger time compared to minor GC in young gen.
      *
-     * Metaspace contains info about class variables, like static variables, info about classes from
+     * Metaspace contains info about classes loaded by JVM, class variables, like static variables, info about classes from
      * which objects can be created.
      *
      * Garbage Collection Algorithms verison

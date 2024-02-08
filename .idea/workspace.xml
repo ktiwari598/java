@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="MultiThreading1, SQl vs NoSQL">
-      <change afterPath="$PROJECT_DIR$/src/StackVsHeapMemory.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Stack vs Heap Memory">
+      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/tictactoe/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/tictactoe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/tictactoe/PieceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/tictactoe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackVsHeapMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackVsHeapMemory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.OOPS.singleton.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.lowleveldesign.tictactoe.Main">
     <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.Deadlock" />
       <module name="JavaPractice" />
@@ -88,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Optionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.Optionals" />
+    <configuration name="lowleveldesign.tictactoe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lowleveldesign.tictactoe.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="lowleveldesign.tictactoe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lowleveldesign.tictactoe.Main" />
         <item itemvalue="Application.OOPS.singleton.Main" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.multithreading.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Optionals" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707275751810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Stack vs Heap Memory">
+      <created>1707296858003</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707296858003</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +197,63 @@
     <MESSAGE value="Java8 Lambdas, Streams" />
     <MESSAGE value="Enums, equals, toString, hashCode" />
     <MESSAGE value="MultiThreading1, SQl vs NoSQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading1, SQl vs NoSQL" />
+    <MESSAGE value="Stack vs Heap Memory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack vs Heap Memory" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lowleveldesign/tictactoe/Game.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
