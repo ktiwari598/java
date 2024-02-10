@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Exception Handling">
-      <change afterPath="$PROJECT_DIR$/encoded.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Student.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Serialization Deserialization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/encoded.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializationDeSerialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SerializationDeSerialization/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OOPS.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SerializationDeSerialization.Main" />
       <module name="JavaPractice" />
@@ -120,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OOPS.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.OOPS.Main" />
         <item itemvalue="Application.exceptionhandling.Main" />
         <item itemvalue="Application.lowleveldesign.tictactoe.Main" />
         <item itemvalue="Application.OOPS.singleton.Main" />
@@ -200,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707487653475</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Serialization Deserialization">
+      <created>1707504621973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707504621973</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,6 +218,7 @@
     <MESSAGE value="Stack vs Heap Memory" />
     <MESSAGE value="LLD for TicTacToe" />
     <MESSAGE value="Exception Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
+    <MESSAGE value="Serialization Deserialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serialization Deserialization" />
   </component>
 </project>

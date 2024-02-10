@@ -5,8 +5,9 @@ import java.io.Serializable;
 public class Student implements Serializable {
     private String name;
     private String rollNo;
-    private int age;
+    private transient Integer age;
     private String address;
+    private String lastName;
 
     public Student() {
     }
@@ -48,6 +49,17 @@ public class Student implements Serializable {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", rollNo='" + rollNo + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 
     public void printName() {
