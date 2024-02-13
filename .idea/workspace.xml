@@ -4,33 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="transient keyword">
-      <change afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/MapCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/OffRoadVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/PassengerVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/SportsVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/Drive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/NormalDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/SpecialDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/OffRoadVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/PassengerVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/SportsVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/RestaurantEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/Waiter.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="design patterns">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/PhoneStoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Iphone12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Iphone13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/OnePlus12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/OnePlus13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/IphoneStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/OnePlusStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/PhoneStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/SamsungStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +59,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.designpatterns.factory.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SerializationDeSerialization.Main" />
+  <component name="RunManager" selected="Application.Customer">
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.abstractfactory.Customer" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SerializationDeSerialization.*" />
+          <option name="PATTERN" value="designpatterns.abstractfactory.phoneStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Customer" />
         <item itemvalue="Application.designpatterns.factory.Main" />
         <item itemvalue="Application.designpatterns.strategy.withStrategyPattern.Main" />
         <item itemvalue="Application.designpatterns.strategy.withoutStrategyPattern.Main" />
         <item itemvalue="Application.collections.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707562217887</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="design patterns">
+      <created>1707842965425</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707842965425</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,6 +242,7 @@
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="Serialization Deserialization" />
     <MESSAGE value="transient keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="transient keyword" />
+    <MESSAGE value="design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="design patterns" />
   </component>
 </project>
