@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Serialization Deserialization">
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="transient keyword">
+      <change afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/MapCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/OffRoadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/PassengerVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/SportsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/NormalDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withStrategyPattern/driveStrategy/SpecialDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/OffRoadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/PassengerVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/SportsVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/strategy/withoutStrategyPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/RestaurantEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/encoded.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializationDeSerialization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializationDeSerialization/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializationDeSerialization/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +74,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.designpatterns.factory.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SerializationDeSerialization.Main" />
       <module name="JavaPractice" />
@@ -65,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Main" />
+    <configuration name="collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
+    <configuration name="designpatterns.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.factory.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.singleton.*" />
+          <option name="PATTERN" value="designpatterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exceptionhandling.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.Main" />
+    <configuration name="designpatterns.strategy.withStrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.withStrategyPattern.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="PATTERN" value="designpatterns.strategy.withStrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lowleveldesign.tictactoe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lowleveldesign.tictactoe.Main" />
+    <configuration name="designpatterns.strategy.withoutStrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.withoutStrategyPattern.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lowleveldesign.tictactoe.*" />
+          <option name="PATTERN" value="designpatterns.strategy.withoutStrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.factory.Main" />
+        <item itemvalue="Application.designpatterns.strategy.withStrategyPattern.Main" />
+        <item itemvalue="Application.designpatterns.strategy.withoutStrategyPattern.Main" />
+        <item itemvalue="Application.collections.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OOPS.Main" />
-        <item itemvalue="Application.exceptionhandling.Main" />
-        <item itemvalue="Application.lowleveldesign.tictactoe.Main" />
-        <item itemvalue="Application.OOPS.singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707504621973</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="transient keyword">
+      <created>1707562217887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707562217887</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +249,7 @@
     <MESSAGE value="LLD for TicTacToe" />
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="Serialization Deserialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serialization Deserialization" />
+    <MESSAGE value="transient keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="transient keyword" />
   </component>
 </project>
