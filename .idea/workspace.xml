@@ -4,19 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="design patterns">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/PhoneStoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Iphone12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Iphone13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/OnePlus12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/OnePlus13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phone/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/IphoneStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/OnePlusStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/PhoneStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/phoneStore/SamsungStore.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="abstract factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/StudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/decorators/CherryTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/decorators/ExtraCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/decorators/MushRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/decorators/ToppingDecorators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/pizza/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/pizza/FarmHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/pizza/Margherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/decoratorpattern/pizza/VegDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observable/IphoneStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observable/SamsungStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observable/StocksObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observer/EmailNotificationAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observer/MobileNotificationAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/observerPattern/observer/NotificationAlertObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/Abstraction/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Abstraction/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +68,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Customer">
+  <component name="RunManager" selected="Application.designpatterns.builder.Main">
     <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.abstractfactory.Customer" />
       <module name="JavaPractice" />
@@ -73,12 +82,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.observerPattern.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="designpatterns.observerPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="designpatterns.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="designpatterns.decoratorpattern.Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.decoratorpattern.Customer" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.decoratorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,39 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="designpatterns.strategy.withStrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.withStrategyPattern.Main" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.strategy.withStrategyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="designpatterns.strategy.withoutStrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.withoutStrategyPattern.Main" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.strategy.withoutStrategyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.builder.Main" />
+        <item itemvalue="Application.designpatterns.decoratorpattern.Customer" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.designpatterns.factory.Main" />
-        <item itemvalue="Application.designpatterns.strategy.withStrategyPattern.Main" />
-        <item itemvalue="Application.designpatterns.strategy.withoutStrategyPattern.Main" />
-        <item itemvalue="Application.collections.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707842965425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="abstract factory pattern">
+      <created>1707846515373</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707846515373</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +259,7 @@
     <MESSAGE value="Serialization Deserialization" />
     <MESSAGE value="transient keyword" />
     <MESSAGE value="design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="design patterns" />
+    <MESSAGE value="abstract factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract factory pattern" />
   </component>
 </project>

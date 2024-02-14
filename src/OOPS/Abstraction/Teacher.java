@@ -15,4 +15,7 @@ public abstract class Teacher {
  * Can have constructors
  * Supports multi level inheritance
  * Do not support multiple inheritance, only interface supports multiple inheritance
+ *
+ * ADT defines what operations you can perform on a certain kind of data, like adding items, removing items,
+ * or finding out how many items there are. It's like the rulebook for working with that type of data.
  */
