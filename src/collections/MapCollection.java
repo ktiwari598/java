@@ -15,14 +15,18 @@ public class MapCollection {
      * then whenever 13th key,value pair is to be inserted, then size of hashmap will be doubled and
      * re-hashing will be done for the entire hashmap
      *
-     * Still, if the size of hashmap is very large, but lets suppose we are getting the same bucket each time, we insert
+     * Still, if the size of hashmap is very large, but let's suppose we are getting the same bucket each time, we insert
      * into the map, then in this case also, the linked list will grow large and worst case TC will be O(N)
      * But, there is something called TREEIFY threshold, whenever the size of LL reaches this threshold, then it converts
      * this LL to balanced BST(Red Black Tree). So, now in the worst case the TC will be O(logN).
      * Avg case TC is still O(1) only for all the operations in hashmap.
      *
      * Hashmap is not thread safe, while hashtable is thread safe.
-     * Hashmap can have null keys nd null value, while hashtable cannot contain null key or value
+     * Hashmap can have null keys and null value, while hashtable cannot contain null key or value
+     *
+     * HashTable is same as HashMap, but thread, here locking is done on entire array of buckets. Due to this,
+     * it is less efficient than concurrent hashmap.
+     * ConcurrentHashMap is same as Hashmap but thread safe. Here locking is done on bucket level;
      */
     public static void main(String[] args) {
         Map<Integer, String> mp = new HashMap<>();

@@ -12,6 +12,9 @@ import java.util.List;
  * Collections - A Utility class that provides some static methods to operate on collections like swap, sort, min, max,
  * reverse, binarysearch, rotate, etc.
  *
+ * ArrayList, LinkedList, or LinkedHashSet, HashSet, HashMap -> allows to add null elements
+ * Hashtable, PriorityQueue, ArrayDeque -> throw NPE if try to add null elements
+ *
  */
 public class Main {
 
