@@ -27,6 +27,24 @@ public class MapCollection {
      * HashTable is same as HashMap, but thread, here locking is done on entire array of buckets. Due to this,
      * it is less efficient than concurrent hashmap.
      * ConcurrentHashMap is same as Hashmap but thread safe. Here locking is done on bucket level;
+     *
+     *
+     * Collision Handling Techniques
+     * -> Separate Chaining: Chaining is a simple collision resolution technique where each bucket in the hash table is
+     *  a linked list. When a collision occurs, the collided elements are appended to the linked list at the
+     *  corresponding bucket. Chaining allows multiple elements with different keys to reside in the same bucket
+     *  without any restrictions.
+     *
+     *  Open Addressing: Open addressing is another collision resolution technique where collisions are resolved by
+     *  finding an alternative location within the hash table itself. There are several methods for open addressing:
+     * i. Linear Probing: In linear probing, if a collision occurs, the algorithm checks the next available slot in the
+     * table until an empty slot is found.
+     *
+     * ii. Quadratic Probing: Quadratic probing uses a quadratic function to compute the next probe location.
+     * It has less clustering than linear probing but may still suffer from primary clustering.
+     *
+     * iii. Double Hashing: Double hashing uses a secondary hash function to compute the probe sequence. It typically
+     * produces more evenly distributed probe sequences compared to linear or quadratic probing.
      */
     public static void main(String[] args) {
         Map<Integer, String> mp = new HashMap<>();

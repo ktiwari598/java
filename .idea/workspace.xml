@@ -4,21 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="decorator, observer, builder design pattern">
-      <change afterPath="$PROJECT_DIR$/src/SpringBootQNA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparatorComparable/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparatorComparable/CarComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/ElevatorCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/ElevatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/InternalElevatorButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/InternalElevatorButtonDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lowleveldesign/elevator/Status.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Comparator &amp; Comparable">
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/SMSNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/withDI/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/withDI/NotificationService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/GooglePay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/Paytm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/interfaces/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/interfaces/Stocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withIS/interfaces/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withoutIS/GooglePay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withoutIS/Paytm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withoutIS/PhonePe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/withoutIS/UPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/MapCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/MapCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comparatorComparable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparatorComparable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/withoutDI/NotificationService1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/NotificationService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/RestaurantEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/interfacesegregation/Waiter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,17 +71,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="solidprinciples.dependencyinversion" />
       <recent name="comparatorComparable" />
       <recent name="lowleveldesign.elevator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.comparatorComparable.Main">
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.abstractfactory.Customer" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solidprinciples.dependencyinversion.Client" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.abstractfactory.phoneStore.*" />
+          <option name="PATTERN" value="solidprinciples.dependencyinversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.comparatorComparable.Main" />
         <item itemvalue="Application.designpatterns.builder.Main" />
         <item itemvalue="Application.designpatterns.decoratorpattern.Customer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Customer" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707909585198</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Comparator &amp; Comparable">
+      <created>1708060715056</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708060715056</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +283,7 @@
     <MESSAGE value="design patterns" />
     <MESSAGE value="abstract factory pattern" />
     <MESSAGE value="decorator, observer, builder design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator, observer, builder design pattern" />
+    <MESSAGE value="Comparator &amp; Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator &amp; Comparable" />
   </component>
 </project>
