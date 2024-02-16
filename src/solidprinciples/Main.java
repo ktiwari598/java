@@ -5,7 +5,7 @@ package solidprinciples;
  *
  * O - Open Closed Principle -> Open for Extension & Closed for Modification
  *
- * L - Liskov Substitution Principle -> If B is child of A, then B should be ale to replace A, without breaking the program
+ * L - Liskov Substitution Principle -> If B is child of A, then B should be able to replace A, without breaking the program.
  *
  * I - Interface Segregation Principle -> Interfaces should be designed such that client should not be forced to implement
  * unnecessary functions that they do not need
