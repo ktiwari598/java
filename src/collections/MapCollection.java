@@ -24,7 +24,7 @@ public class MapCollection {
      * Hashmap is not thread safe, while hashtable is thread safe.
      * Hashmap can have null keys and null value, while hashtable cannot contain null key or value
      *
-     * HashTable is same as HashMap, but thread, here locking is done on entire array of buckets. Due to this,
+     * HashTable is same as HashMap, but thread safe, here locking is done on entire array of buckets. Due to this,
      * it is less efficient than concurrent hashmap.
      * ConcurrentHashMap is same as Hashmap but thread safe. Here locking is done on bucket level;
      *

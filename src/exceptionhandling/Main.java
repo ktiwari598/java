@@ -25,7 +25,7 @@ import java.io.IOException;
  * Advantage of Exception handling
  * 1. For preventing abnormal termination of program
  * 2. For debugging
- * 3. Fir making code clean and concise
+ * 3. For making code clean and concise
  *
  * Disadvantage
  * 1. If stack trace is use, then exception handling may be little expensive

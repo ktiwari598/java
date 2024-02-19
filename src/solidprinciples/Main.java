@@ -4,6 +4,8 @@ package solidprinciples;
  * S - Single Responsibility Principle -> A class should have only 1 reason to change/single responsibility
  *
  * O - Open Closed Principle -> Open for Extension & Closed for Modification
+ * Open-Closed Principle encourages you to design your software in a way that allows for easy extension
+ * without the need for modifying existing code
  *
  * L - Liskov Substitution Principle -> If B is child of A, then B should be able to replace A, without breaking the program.
  *

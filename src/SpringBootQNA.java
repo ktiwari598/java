@@ -33,5 +33,13 @@ public class SpringBootQNA {
      * => Provides built-in endpoints that we can use to monitor and manage our application.
      * => /heath => shows application health information
      * => /Beans => get the list of all the beans in your application
+     *
+     * 10. Why SpringBoot over Spring framework?
+     * => Minimum manual configurations due to Auto-Configuration
+     * => Embedded Server Support
+     * => Dependency Management
+     * => Actuator Endpoints
+     * Spring Boot simplifies the development, deployment, and management of Spring applications by providing
+     * opinionated defaults, reducing boilerplate code, and offering production-ready features out-of-the-box.
      */
 }

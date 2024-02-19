@@ -1,7 +1,7 @@
 package enums;
 
 /**
- * Enums can have constructors, methods, fields
+ * Enums can have private constructors, methods, fields
  * Enums can implement interfaces
  * Enums in Java do not support inheritance from other enums or classes.
  * Enums are implicitly final, meaning they cannot be subclassed or extended.

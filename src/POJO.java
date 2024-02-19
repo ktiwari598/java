@@ -28,7 +28,7 @@ public class POJO {
 
     /**
      * equals() method is used for comparing 2 objects, default implementation in Object class
-     * is to check if both methods point to the same memory location, override it to add your own
+     * is to check if both objects point to the same memory location, override it to add your own
      * custom comparing logic
      */
     @Override

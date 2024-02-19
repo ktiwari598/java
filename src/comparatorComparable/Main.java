@@ -3,6 +3,12 @@ package comparatorComparable;
 import java.util.*;
 
 /**
+ *
+ * Unlike Comparator, Comparable is not considered a functional interface because it predates the concept of functional
+ * interfaces in Java.
+ * Functional interfaces were introduced in Java 8 as part of the lambda expressions feature. Comparable was not
+ * retrofitted to be a functional interface to maintain backward compatibility with existing code.
+ *
  * In summary, Comparator is designed to be used for custom comparison logic and provides a method that directly accepts
  * parameters for comparison, making it suitable for use with lambda expressions and functional programming constructs.
  * On the other hand, Comparable is more focused on defining natural ordering for objects and does not directly
