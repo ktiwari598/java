@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Finalize, try with resources method">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/finallyblock/Main.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="StringBuffer, StringBuilder">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/ImmutableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/clone/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/clone/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/clone/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackVsHeapMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackVsHeapMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +55,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="OOPS.clone" />
       <recent name="solidprinciples.dependencyinversion" />
       <recent name="comparatorComparable" />
       <recent name="lowleveldesign.elevator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exceptionhandling.finallyblock.Main">
+  <component name="RunManager" selected="Application.OOPS.clone.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="garbagecollection.trywithresources.Main" />
       <module name="JavaPractice" />
@@ -71,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.polymorphism.runtime.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.polymorphism.runtime.Main" />
+    <configuration name="OOPS.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.polymorphism.runtime.*" />
+          <option name="PATTERN" value="OOPS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPS.clone.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.clone.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solidprinciples.liskovSubstitution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solidprinciples.liskovSubstitution.Main" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solidprinciples.liskovSubstitution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.clone.Main" />
+        <item itemvalue="Application.OOPS.Main" />
         <item itemvalue="Application.exceptionhandling.finallyblock.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.garbagecollection.finalizeMethod.Main" />
-        <item itemvalue="Application.OOPS.polymorphism.runtime.Main" />
-        <item itemvalue="Application.solidprinciples.liskovSubstitution.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708486551214</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="StringBuffer, StringBuilder">
+      <created>1708493295141</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708493295141</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +319,7 @@
     <MESSAGE value="Liskov Substitution principle" />
     <MESSAGE value="Java Q&amp;A" />
     <MESSAGE value="Finalize, try with resources method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize, try with resources method" />
+    <MESSAGE value="StringBuffer, StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuffer, StringBuilder" />
   </component>
 </project>
