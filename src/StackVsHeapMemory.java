@@ -48,5 +48,20 @@ public class StackVsHeapMemory {
      * finalize -> This method is invoked by GC just before deleting the unreferenced object, used for performing
      * clean up operations
      *
+     * String is immutable in java because :
+     * String is most commonly used as credentials, if String is mutable and somehow some hacker modifies its
+     * content, then this will impact the system and cause severe security issues
+     * String is used as key in many hash based collections like hashmap, hashset, So, changing the content of
+     * the key will cause unwanted issues while accessing the collections.
+     * String is made immutable so that String Constant Pool can be used to save a lot of heap space by sharing
+     * same String literals across different reference variables
+     *
+     *
+     * Feature	        StringBuffer	                        StringBuilder
+     * Thread safety	Thread-safe (synchronized methods)	    Not thread-safe
+     * Performance	    Slower due to synchronization	        Faster due to lack of synchronization
+     * Introduced	    Java 1.0	                            Java 5.0
+     * Use Cases	    Multithreaded environments	            Single-threaded environments
+     *
      */
 }
