@@ -45,5 +45,8 @@ public class StackVsHeapMemory {
      *
      * G1 GC -> Used in newer version of Java, is improvement over concurrent mark & sweep, also compaction happens
      *
+     * finalize -> This method is invoked by GC just before deleting the unreferenced object, used for performing
+     * clean up operations
+     *
      */
 }
