@@ -68,6 +68,7 @@ public class Main {
         carsList.add(new Car("Rolls Royce", "Sedan"));
 
         Collections.sort(carsList, new CarComparator());
+        Collections.sort(carsList, (a, b) -> a.carName.compareTo(b.carName));
     }
 
 }

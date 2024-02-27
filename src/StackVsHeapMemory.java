@@ -63,5 +63,11 @@ public class StackVsHeapMemory {
      * Introduced	    Java 1.0	                            Java 5.0
      * Use Cases	    Multithreaded environments	            Single-threaded environments
      *
+     * It would seem logical to collect and store the password in an object of type java.lang.String. However,
+     * here's the caveat: Objects of type String are immutable, i.e., there are no methods defined that allow you
+     * to change (overwrite) or zero out the contents of a String after usage. This feature makes String objects
+     * unsuitable for storing security sensitive information such as user passwords.
+     * You should always collect and store security sensitive information in a char array instead.
+     *
      */
 }
