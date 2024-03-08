@@ -1,6 +1,9 @@
 package multithreading;
 
 /**
+ * Running instance of a program is called process.
+ * The smallest unit of execution is called thread.
+ *
  * Thread created using Runnable interface is more preferable compare to thread created using extension of Thread class
  * because when you extend Thread class, now that class can't extend any more class as java do not support multiple
  * inheritance, but when you use runnable interface implementation, then you can definitely extend other
