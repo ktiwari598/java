@@ -1,0 +1,24 @@
+The O in SOLID stands for the Open/Closed Principle (OCP). It means that software entities
+ (like classes, modules, functions) should be open for extension but closed for modification.
+
+Key Idea:
+You should be able to add new features or functionalities to a class without changing its existing code.
+Instead of altering existing code, you can extend it by adding new components, which keeps the original codebase
+stable and reduces the risk of introducing bugs.
+
+Real-Life Example:
+Imagine a coffee shop that serves a variety of drinks like coffee, tea, and smoothies. The shop’s basic operation is to
+ prepare a drink and serve it.
+
+Now, if the owner decides to introduce a new drink, say, a hot chocolate, the process should be seamless.
+You wouldn't want to remodel the entire shop for just one new drink. Instead, you would extend the menu to add the
+ hot chocolate while keeping the existing process of preparing drinks intact.
+
+In a similar way, the coffee shop's operation (class) is closed for modification (you don’t change the entire process),
+ but it's open for extension (you can add new drinks without disrupting the system).
+
+
+Benefits:
+Closed for modification: You don’t need to change the existing AreaCalculator or Shape classes when adding new shapes.
+Open for extension: You can easily add more shapes like squares, pentagons, or hexagons by extending the
+Shape interface, without touching the rest of the code.

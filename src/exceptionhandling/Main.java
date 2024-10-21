@@ -1,6 +1,8 @@
 package exceptionhandling;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Object -> Throwable -> Error, Exception -> Checked, Un-Checked/Runtime
@@ -35,6 +37,18 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 //        method1();
+        List<String> list = new ArrayList<>();
+        list.add("one");
+        list.add("two");
+        list.add("three");
+
+        for (String item : list) {
+            if (item.equals("two")) {
+                list.remove(item);
+            }
+        }
+
+        System.out.println("List: " + list);
     }
 
     private static void method1() {
