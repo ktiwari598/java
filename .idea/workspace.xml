@@ -4,20 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Multithreading Atomic Operations">
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/AreaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/OpenClosed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withoutOpenClosed/AreaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withoutOpenClosed/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withoutOpenClosed/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidprinciples/singleResponsibility/SingleResponsibility" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Added OpenClosed principle">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/CryptoPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/PaymentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/PaypalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/strategy/StrategyDesignPattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withLSV/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withLSV/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withLSV/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withLSV/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withoutLSP/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withoutLSP/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withoutLSP/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/liskovSubstitution/withoutLSP/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionhandling/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionhandling/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/atomicoperations/AtomicOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/atomicoperations/AtomicOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/withDI/NotificationService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/dependencyinversion/withDI/NotificationService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/openclose/withOpenClosed/OpenClosed" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/openclose/OpenClosed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solidprinciples/singleResponsibility/SingleResponsibility" beforeDir="false" afterPath="$PROJECT_DIR$/src/solidprinciples/singleResponsibility/SingleResponsibility" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/karan/IdeaProjects/DesignPatterns",
+    "last_opened_file_path": "C:/Users/karan/IdeaProjects/JavaPractice/src/solidprinciples/liskovSubstitution/withLSV",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -69,21 +78,14 @@
       <recent name="lowleveldesign.vendingmachine.vendingmachinestate" />
       <recent name="OOPS.clone" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karan\IdeaProjects\JavaPractice\src\solidprinciples\liskovSubstitution\withLSV" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karan\IdeaProjects\JavaPractice\src\solidprinciples\openclose" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OOPS.singleton.Main">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.lockType.semaphorelocks.Client" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.lockType.semaphorelocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.designpatterns.behavioral.strategy.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.Main" />
       <module name="JavaPractice" />
@@ -110,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="designpatterns.behavioral.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.strategy.Main" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="multithreading.atomicoperations.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.atomicoperations.Client" />
       <module name="JavaPractice" />
@@ -123,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multithreading.lockType.readwritelock.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.lockType.readwritelock.Client" />
+    <configuration name="solidprinciples.openclose.withOpenClosed.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solidprinciples.openclose.withOpenClosed.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.lockType.readwritelock.*" />
+          <option name="PATTERN" value="solidprinciples.openclose.withOpenClosed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.behavioral.strategy.Main" />
+        <item itemvalue="Application.solidprinciples.openclose.withOpenClosed.Main" />
         <item itemvalue="Application.OOPS.singleton.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.multithreading.atomicoperations.Client" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.multithreading.lockType.readwritelock.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709899652937</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added OpenClosed principle">
+      <created>1729531926074</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729531926074</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +375,8 @@
     <MESSAGE value="Clone method" />
     <MESSAGE value="Vending Machine LLD" />
     <MESSAGE value="Multithreading Atomic Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multithreading Atomic Operations" />
+    <MESSAGE value="Added OpenClosed principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OpenClosed principle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,7 +3,8 @@ It means that every class, module, or function in a program should have only **o
  i.e., it should have only **one job** or **responsibility**.
 
 ### Key Idea:
-A class should be focused on doing **one thing** well. If a class tries to do too much, it becomes difficult to maintain, test, and update because any change in one part of the class might affect other parts.
+A class should be focused on doing **one thing** well. If a class tries to do too much, it becomes difficult to maintain, test,
+and update because any change in one part of the class might affect other parts.
 
 ### Real-life Example:
 Think of a **restaurant** with different staff members. Each staff member has a specific job:
