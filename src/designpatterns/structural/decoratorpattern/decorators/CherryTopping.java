@@ -2,16 +2,19 @@ package designpatterns.structural.decoratorpattern.decorators;
 
 import designpatterns.structural.decoratorpattern.pizza.BasePizza;
 
-public class CherryTopping extends ToppingDecorators {
+public class CherryTopping extends PizzaDecorator {
 
-    private final BasePizza basePizza;
-
-    public CherryTopping(BasePizza basePizza) {
-        this.basePizza = basePizza;
+    public CherryTopping(BasePizza pizza) {
+        super(pizza);
     }
 
     @Override
     public int cost() {
-        return basePizza.cost() + 25;
+        return pizza.cost() + 25;
+    }
+
+    @Override
+    public String description() {
+        return "Added CherryTopping to " + pizza.description();
     }
 }

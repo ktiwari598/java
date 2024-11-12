@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Added Solid principles, strategy design pattern">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/StockPriceMonitoring/Investor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/StockPriceMonitoring/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/StockPriceMonitoring/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/StockPriceMonitoring/Subject.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Added Observer Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/PizzaDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/CherryTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/CherryTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ExtraCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ExtraCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/MushRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/MushRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ToppingDecorators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/BasePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/BasePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/FarmHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/FarmHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/Margherita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/Margherita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/VegDelight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/VegDelight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +75,7 @@
       <recent name="C:\Users\karan\IdeaProjects\JavaPractice\src\solidprinciples\openclose" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Customer">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.observerPattern.StockPriceMonitoring.Client" />
       <module name="JavaPractice" />
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.Main" />
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.structural.decoratorpattern.Customer" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="PATTERN" value="designpatterns.structural.decoratorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.designpatterns.behavioral.strategy.Main" />
         <item itemvalue="Application.solidprinciples.openclose.withOpenClosed.Main" />
         <item itemvalue="Application.OOPS.singleton.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731256069291</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added Observer Design Pattern">
+      <created>1731342373229</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1731342373229</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +381,8 @@
     <MESSAGE value="Multithreading Atomic Operations" />
     <MESSAGE value="Added OpenClosed principle" />
     <MESSAGE value="Added Solid principles, strategy design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Solid principles, strategy design pattern" />
+    <MESSAGE value="Added Observer Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Observer Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
