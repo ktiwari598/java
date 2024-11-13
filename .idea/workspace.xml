@@ -4,19 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Added Observer Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/PizzaDecorator.java" afterDir="false" />
+    <list default="true" id="bce09a5a-9962-4546-9db4-77f1dda680cb" name="Changes" comment="Added Decorator Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/factory/GuiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/factory/MacFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/factory/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/MacButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/MacTextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/products/WindowsTextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/behavioral/observerPattern/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/CherryTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/CherryTopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ExtraCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ExtraCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/MushRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/MushRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/decorators/ToppingDecorators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/BasePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/BasePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/FarmHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/FarmHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/Margherita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/Margherita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/VegDelight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/structural/decoratorpattern/pizza/VegDelight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/PhoneStoreFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phone/Iphone12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phone/Iphone13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phone/OnePlus12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phone/OnePlus13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phone/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phoneStore/IphoneStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phoneStore/OnePlusStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phoneStore/PhoneStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/creational/abstractfactory/phoneStore/SamsungStore.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +57,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/karan/IdeaProjects/JavaPractice/src/solidprinciples/liskovSubstitution/withLSV",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karan/IdeaProjects/JavaPractice/src/solidprinciples/liskovSubstitution/withLSV&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lowleveldesign.atm.states" />
@@ -75,7 +85,7 @@
       <recent name="C:\Users\karan\IdeaProjects\JavaPractice\src\solidprinciples\openclose" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Customer">
+  <component name="RunManager" selected="Application.designpatterns.creational.abstractfactory.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.observerPattern.StockPriceMonitoring.Client" />
       <module name="JavaPractice" />
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
+    <configuration name="designpatterns.behavioral.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.strategy.Main" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.singleton.*" />
+          <option name="PATTERN" value="designpatterns.behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="designpatterns.behavioral.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.behavioral.strategy.Main" />
+    <configuration name="designpatterns.creational.abstractfactory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.creational.abstractfactory.Client" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.behavioral.strategy.*" />
+          <option name="PATTERN" value="designpatterns.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.designpatterns.creational.abstractfactory.Client" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.designpatterns.behavioral.strategy.Main" />
         <item itemvalue="Application.solidprinciples.openclose.withOpenClosed.Main" />
-        <item itemvalue="Application.OOPS.singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731342373229</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Decorator Design Pattern">
+      <created>1731430105877</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731430105877</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +399,8 @@
     <MESSAGE value="Added OpenClosed principle" />
     <MESSAGE value="Added Solid principles, strategy design pattern" />
     <MESSAGE value="Added Observer Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Observer Design Pattern" />
+    <MESSAGE value="Added Decorator Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Decorator Design Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
